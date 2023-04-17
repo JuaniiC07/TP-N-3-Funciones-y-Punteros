@@ -1,0 +1,68 @@
+/*int main()
+{
+Pila pila1;
+Pila pila2, pilaFinal;
+Pila pila3, pilaFinal3;
+Pila pila4, menor4, aux4;
+Pila pila6, aux6, pedido6;
+Pila pila8;
+
+inicpila(&pila1);
+inicpila(&pila2);
+inicpila(&pilaFinal);
+inicpila(&pilaFinal3);
+inicpila(&pila3);
+inicpila(&pila4);
+inicpila(&menor4);
+inicpila(&aux4);
+inicpila(&pila6);
+inicpila(&aux6);
+inicpila(&pedido6);
+inicpila(&pila8);
+int sumaDosNumeros;
+
+    // Ejercicio 1
+
+pila1 = ingresoElementosAPila(pila1);
+printf("\n Pila dada:\n");
+mostrar(&pila1);
+
+    // Ejercicio 2
+
+pila2 = ingresoElementosAPila(pila2, pilaFinal);
+printf("Pila original");
+mostrar(&pila2);
+pilaFinal = pasarPilaAOtraPila(pila2, pilaFinal);
+printf("\n La pila final es:\n");
+mostrar(&pilaFinal);
+
+    // Ejercicio 3
+
+pila3 = ingresoElementosAPila(pila3, pilaFinal3);
+printf("Pila original");
+mostrar(&pila3);
+pilaFinal3 = pasarPilaAOtraPila(pilaFinal3, pila3);
+printf("\n La pila final es:\n");
+mostrar(&pilaFinal3);
+
+    // Ejercicio 4
+pila4 = ingresoElementosAPila(pila4);
+pila4 = encontrarMenorElementoYRetornarEnOtraPila (pila4, menor4, aux4);
+mostrar(&pila4);
+
+    // Ejercicio 6
+
+pila6 = insertarUnElementoEnUnaPilaOrdenada (pila6, aux6, pedido6);
+mostrar(&pila6);
+
+    // Ejercicio 8
+
+pila8 = ingresoElementosAPila(pila8);
+sumaDosNumeros = quitarDosPrimerosElementosDeUnaPilaYSumarlos (pila8);
+printf("\n El resultado de la suma es:%i\n", sumaDosNumeros);
+
+
+
+return 0;
+}
+*/
